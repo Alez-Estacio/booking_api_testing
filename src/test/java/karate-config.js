@@ -6,8 +6,7 @@ function fn() {
   }
   var config = {
     env: env,
-    url_booking: 'https://restful-booker.herokuapp.com',
-    url_cars: 'https://cars.com'
+
 
   }
   if (env == 'dev') {
