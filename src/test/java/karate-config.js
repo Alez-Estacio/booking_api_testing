@@ -6,15 +6,13 @@ function fn() {
   }
   var config = {
     env: env,
-
-
+    myVarName: 'someValue'
   }
   if (env == 'dev') {
-    //Customize
+    // customize
     // e.g. config.foo = 'bar';
-  } else if (env == 'qa') {
+  } else if (env == 'e2e') {
     // customize
   }
-
   return config;
 }
